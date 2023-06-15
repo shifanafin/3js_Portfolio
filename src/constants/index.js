@@ -156,7 +156,7 @@ import {
     {
       name: "Gym ",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A website for gym. it help them to advertise their gym and to known to everyone about the services that they are providing.",
       tags: [
         {
           name: "react",
@@ -177,7 +177,7 @@ import {
     {
       name: "Erp",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "It is a full stack web Application uses for a software company which combines all departments together and also have employee assesment.",
       tags: [
         {
           name: "react",
