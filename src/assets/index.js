@@ -25,7 +25,7 @@ import poonchola from "./company/poonchola.jpg"
 
 import gym from "./gym.png";
 import erp from "./erp.png";
-import tripguide from "./tripguide.png";
+import airwings from "./airwings.png";
 
 export {
   logo,
@@ -50,7 +50,7 @@ export {
   threejs,
   gym,
   erp,
-  tripguide,
+  airwings,
   exthgen,
   poonchola
 };

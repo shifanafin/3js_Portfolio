@@ -6,11 +6,9 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-
 // template_rywu68z
 // service_02tcmhb
 // azePK09Neq1iK6U1D
-
 
 const Contact = () => {
   const formRef = useRef();
@@ -24,38 +22,43 @@ const Contact = () => {
   });
 
   const handleChange = (e) => {
-    const {name,value} = e.target;
-    setForm({...form,[name]:value})
-
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true)
+    setLoading(true);
 
-    emailjs.send("service_02tcmhb","template_l62u55e",
-    {
-      from_name:form.name,
-      name : "Shifana CT",
-      from_email : form.email,
-      to_email : "ctshifanachennara@gmail.com",
-      message : form.message,
-    },
-  "azePK09Neq1iK6U1D"
-    ).then(()=>{
-      setLoading(false);
-      alert("Thank You,I will back to you as soon as possible.");
+    emailjs
+      .send(
+        "service_02tcmhb",
+        "template_l62u55e",
+        {
+          from_name: form.name,
+          name: "Shifana CT",
+          from_email: form.email,
+          to_email: "ctshifanachennara@gmail.com",
+          message: form.message,
+        },
+        "azePK09Neq1iK6U1D"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thank You,I will back to you as soon as possible.");
 
-      setForm({
-        name:"",
-        email:"",
-        message:"",
-      })
-    },
-      (error)=>{
-        setLoading(false)
-        console.error(error)
-        alert("something went wrong")
-      })
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.error(error);
+          alert("something went wrong");
+        }
+      );
   };
 
   return (
@@ -109,19 +112,18 @@ const Contact = () => {
             />
           </label>
           <button
-          type="submit"
-          className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold  shadow-md shadow-primary rounded-xl">
+            type="submit"
+            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold  shadow-md shadow-primary rounded-xl"
+          >
             {loading ? "sending.." : "send"}
-
           </button>
         </form>
       </motion.div>
       <motion.div
-         variants={slideIn("right", "tween", 0.2, 1)}
-         className="xl:flex-1  xl:h-auto md:h-[550px] h-[350px] ">
-          <EarthCanvas/>
-
-
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className="xl:flex-1  xl:h-auto md:h-[550px] h-[350px] "
+      >
+        <EarthCanvas />
       </motion.div>
     </div>
   );

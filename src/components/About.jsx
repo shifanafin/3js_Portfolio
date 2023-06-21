@@ -46,6 +46,7 @@ const About = () => {
       <motion.div 
       variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>About.</h2>
+      
       </motion.div>
       <motion.p 
       variants={fadeIn("","",0.1,1)}
@@ -61,8 +62,10 @@ const About = () => {
            {services.map((service,index)=>(
                 <ServiceCard  key={service.title}
                 index={index} {...service}
+               
                 />
            ))}
+           
       </div>
 
 

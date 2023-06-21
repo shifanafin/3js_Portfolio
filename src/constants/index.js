@@ -17,6 +17,7 @@ import {
     gym,
     erp,
     threejs,
+    airwings,
     exthgen,
     poonchola
   } from "../assets";
@@ -154,6 +155,27 @@ import {
   
   const projects = [
     {
+      name: "Airwings ",
+      description:
+        "It is just a template which i build for a company, for a model i build this. it is for a airline comapny named airwings with gives the information about their Services , packages etc.. and a email form to contact them",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: airwings,
+      source_code_link: "https://airwings.pages.dev/",
+    },
+    {
       name: "Gym ",
       description:
         "A website for gym. it help them to advertise their gym and to known to everyone about the services that they are providing.",
@@ -189,10 +211,10 @@ import {
         },
         {
           name: "mongodb",
-          color: "yellow-text-gradient",
+          color: "orange-text-gradient",
         },
         {
-          name: "scss",
+          name: "redux-toolkit",
           color: "pink-text-gradient",
         },
       ],

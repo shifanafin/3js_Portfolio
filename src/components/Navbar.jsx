@@ -3,13 +3,31 @@ import { Link } from 'react-router-dom';
 import { styles  } from '../styles';
 import {navLinks } from "../constants";
 import {logo,menu,close} from "../assets"
+import resume from "./resume.pdf";
+
 
 
 
 const Navbar = () => {
 
+
   const [active,setActive]=useState("")
   const [toggle,setToggle]=useState(false)
+  const onButtonClick = () => {
+    fetch(resume)
+      .then((response) => {
+        response.blob().then((blob) => {
+          const fileURL = window.URL.createObjectURL(blob);
+          let alink = document.createElement('a');
+          alink.href = fileURL;
+          alink.download = 'resume.pdf';
+          alink.click();
+        });
+      })
+      .catch((error) => {
+        console.error('Error occurred while downloading the resume:', error);
+      });
+  };
 
   return (
       <nav className={`${styles. paddingX} w-full flex items-center py-6 fixed top-0 z-20 bg-primary`}>
@@ -19,10 +37,20 @@ const Navbar = () => {
                 setActive("");
                 window.scrollTo(0,0)
                }}>
+
                 <img src={logo} alt="logo" 
                 className='w-9 h-9  object-contain '/>
+                     <div >
+               <button 
+               onClick={onButtonClick}
+               className='bg-red-500 font-bold cursor-pointer h-9 w-52 rounded-md '>
+                 Download Resume
+                </button>
+                </div>
+              
                
                </Link>
+          
                <ul className='list-none hidden  md:flex flex-row gap-10  '>
                  {navLinks.map((link)=>(
                   <li 
@@ -62,8 +90,11 @@ const Navbar = () => {
 
                   </li>
                  ))}
+                
                       </ul>
+                      
                 </div>
+         
 
                </div>
             </div>

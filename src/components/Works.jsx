@@ -25,34 +25,24 @@ const ProjectCards = ({
         }}
         className=" bg-tertiary  p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative object-contain  w-full  ">
           <img
-            className="w-full h-full object-cover rounded-2xl cursor-pointer"
+            className="w-full h-full   rounded-2xl cursor-pointer"
             src={image}
             alt={name}
             onClick={() => window.open(source_code_link, "_blank")}
           />
-        
         </div>
         <div className="mt-5">
-              <h3 className="text-white font-bold text-[24px] "> {name}</h3>
-              <p className="mt-2 text-secondary text-[14px]" > {description}</p>
-         
-          
-          
+          <h3 className="text-white font-bold text-[24px] "> {name}</h3>
+          <p className="mt-2 text-secondary text-[14px]"> {description}</p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2 ">
-          {tags.map((tag,index)=>(
+          {tags.map((tag, index) => (
             <p key={tag.name} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
-
-
-
             </p>
-
-
           ))}
-
         </div>
       </Tilt>
     </motion.div>
@@ -74,7 +64,7 @@ const Works = () => {
           building projects
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap   gap-7 ">
         {projects.map((project, index) => (
           <ProjectCards key={`project-${index}`} index={index} {...project} />
         ))}
