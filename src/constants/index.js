@@ -140,6 +140,19 @@ import {
       iconBg: "#E6DEDD",
       date: "July 2022 - December 2022",
       points: [
+      "Handled FullStack Application ",
+      "Build application From Scratch ",
+      "Contribute on others project ",
+      "get familiar with git and github"
+      ],
+    },
+    {
+      title: "Full stack intern",
+      company_name: "Poonchola Technologies",
+      icon:poonchola,
+      iconBg: "#E6DEDD",
+      date: "januvary 2022 - june 2022",
+      points: [
         "Completed my internship as part of the final year project,focusing on MERN stack development.",
 "It was an ERP Software for a software company where i named it Liwet.",
 "Designed and implemented responsive UI components, improving the overall user experience in react.",
