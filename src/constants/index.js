@@ -17,6 +17,7 @@ import {
     gym,
     erp,
     threejs,
+    next,
     airwings,
     exthgen,
     poonchola
@@ -73,10 +74,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
     {
       name: "React JS",
       icon: reactjs,
@@ -96,6 +97,11 @@ import {
     {
       name: "MongoDB",
       icon: mongodb,
+    },
+    {
+      name: "Next Js",
+      icon: next,
+      
     },
     // {
     //   name: "Three JS",
@@ -184,6 +190,10 @@ import {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "javascript",
+          color: "orange-text-gradient",
+        },
       ],
       image: airwings,
       source_code_link: "https://airwings.pages.dev/",
@@ -205,6 +215,11 @@ import {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "typescript",
+          color: "yellow-text-gradient",
+        },
+     
       ],
       image: gym,
       source_code_link: "https://3481072a.dance-class.pages.dev/",
