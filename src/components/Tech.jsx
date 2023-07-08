@@ -9,7 +9,7 @@ import { styles } from "../styles";
 
 const Tech = () => {
   return (
-<>
+<div>
 <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>Tech-skills.</h2>
       </motion.div>
@@ -20,7 +20,7 @@ const Tech = () => {
         </div>
       ))}
     </div>
-    </>
+    </div>
   );
 
 };

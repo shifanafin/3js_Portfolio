@@ -64,7 +64,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.yellow-text-gradient {
+.
+
+{
   background: #27b7df; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,

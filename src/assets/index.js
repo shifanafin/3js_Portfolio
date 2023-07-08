@@ -28,6 +28,12 @@ import gym from "./gym.png";
 import erp from "./erp.png";
 import airwings from "./airwings.png";
 
+import githubContact from "./contact/githubContact.png";
+import Insta from "./contact/Insta.png";
+import linkedin from "./contact/linkedin.png"
+
+
+
 export {
   logo,
   backend,
@@ -54,5 +60,8 @@ export {
   erp,
   airwings,
   exthgen,
-  poonchola
+  poonchola,
+  githubContact,
+  Insta,
+  linkedin
 };

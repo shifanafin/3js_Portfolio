@@ -8,6 +8,10 @@ import {fadeIn,textVariant} from "../utils/motion"
 import { SectionWrapper } from "../hoc"
 
 
+import { BallCanvas } from "./canvas";
+import { Contact } from "../constants";
+
+
 
 
 
@@ -46,7 +50,21 @@ const About = () => {
       <motion.div 
       variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>About.</h2>
+      </motion.div>
+      <motion.div>
       
+      <div className='flex flex-row flex-wrap  gap-10 mt-10'>
+      {Contact.map((contact) => (
+       
+        <div className='w-12 h-12' key={contact.title}>
+           <a 
+        href={contact.link}>
+          <BallCanvas icon={contact.icon} />
+          </a>
+        </div>
+       
+      ))}
+    </div>
       </motion.div>
       <motion.p 
       variants={fadeIn("","",0.1,1)}

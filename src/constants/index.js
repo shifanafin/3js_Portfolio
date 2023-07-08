@@ -20,7 +20,10 @@ import {
     next,
     airwings,
     exthgen,
-    poonchola
+    poonchola,
+    githubContact,
+    Insta,
+    linkedin
   } from "../assets";
   
   export const navLinks = [
@@ -46,6 +49,24 @@ import {
     },
   ];
   
+ const Contact = [
+  {
+  title:"git",
+  icon: githubContact,
+  link:"https://github.com/shifanafin"
+ },
+  {
+  title:"instagram",
+  icon: Insta,
+  link:"https://www.instagram.com/shifana_abdula/"
+ },
+  {
+  title:"LinkedIn",
+  icon: linkedin,
+  link:"https://www.linkedin.com/in/shifana-ct-023161220/"
+ }
+]
+
   const services = [
     {
       title: "Full Stack Web Developer",
@@ -252,5 +273,5 @@ import {
 
   ];
   
-  export { services, technologies, experiences, projects };
+  export { services, technologies, experiences, projects,Contact };
   
