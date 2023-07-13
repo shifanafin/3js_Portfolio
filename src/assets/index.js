@@ -20,6 +20,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import next from "./tech/next.png";
+import mysql from "./tech/mysql.png";
 
 import exthgen from "./company/exthgen.jpg";
 import poonchola from "./company/poonchola.jpg"
@@ -43,8 +44,8 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
+  // docker,
+  // figma,
   git,
   html,
   javascript,
@@ -54,8 +55,9 @@ export {
   redux,
   tailwind,
   next,
+  mysql,
   typescript,
-  threejs,
+  // threejs,
   gym,
   erp,
   airwings,

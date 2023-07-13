@@ -12,11 +12,12 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
+    // figma,
+    // docker,
+    mysql,
     gym,
     erp,
-    threejs,
+    // threejs,
     next,
     airwings,
     exthgen,
@@ -83,10 +84,10 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
     {
       name: "CSS 3",
       icon: css,
@@ -114,6 +115,10 @@ import {
     {
       name: "Node JS",
       icon: nodejs,
+    },
+    {
+      name: "MYSQL",
+      icon: mysql,
     },
     {
       name: "MongoDB",
