@@ -22,6 +22,7 @@ import {
     airwings,
     exthgen,
     poonchola,
+    aaagency,
     githubContact,
     Insta,
     linkedin
@@ -149,11 +150,24 @@ import {
   
   const experiences = [
     {
+      title: "Web Developer Inter",
+      company_name: "Aaagency DMCC, Dubai",
+    icon:aaagency ,
+      iconBg: "white",
+      date: "July 2023 - Present",
+      points: [
+        "Joined as a Web Development intern.",
+       " Working on Wordpress, PHP for creating websites.",
+       " Also Building Web Applications by usong React For FrontEnd.",
+     
+      ],
+    },
+    {
       title: "React.js Developer",
-      company_name: "Exthgen Technologies",
+      company_name: "Exthgen Technologies,Kerala",
     icon:exthgen ,
       iconBg: "#383E56",
-      date: "Februvary 2023 - Present",
+      date: "Februvary 2023 - July 2023",
       points: [
         "Joined as a frontEnd  developer.",
        " Worked on a Web Part Of Our Application called SpeakEnglish.",
@@ -167,7 +181,7 @@ import {
 
     {
       title: "Full stack Developer",
-      company_name: "Poonchola Technologies",
+      company_name: "Poonchola Technologies,Kerala",
       icon:poonchola,
       iconBg: "#E6DEDD",
       date: "July 2022 - December 2022",
@@ -180,7 +194,7 @@ import {
     },
     {
       title: "Full stack intern",
-      company_name: "Poonchola Technologies",
+      company_name: "Poonchola Technologies,Kerala",
       icon:poonchola,
       iconBg: "#E6DEDD",
       date: "januvary 2022 - june 2022",

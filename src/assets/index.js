@@ -24,6 +24,7 @@ import mysql from "./tech/mysql.png";
 
 import exthgen from "./company/exthgen.jpg";
 import poonchola from "./company/poonchola.jpg"
+import aaagency from "./company/aaagency.jpeg"
 
 import gym from "./gym.png";
 import erp from "./erp.png";
@@ -63,6 +64,7 @@ export {
   airwings,
   exthgen,
   poonchola,
+  aaagency,
   githubContact,
   Insta,
   linkedin
