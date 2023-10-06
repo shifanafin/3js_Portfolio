@@ -216,7 +216,7 @@ import {
     {
       name: "Shoe Wear ",
       description:
-        "Ecommerce Website for Shoes. ite is a basic website which build on React and Redux-toolkit.we can view the products and put them to cart and it will shows the total amount",
+        "Ecommerce Website for Shoes. ite is a basic website which build on React and Redux-toolkit.we can view the products and put them to cart and it wi",
       tags: [
         {
           name: "react",
@@ -231,13 +231,12 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "redux-toolkit",
+          name: "javascript",
           color: "orange-text-gradient",
         },
       ],
-      image: nike,
-      // source_code_link: "https://airwings.pages.dev/",
-      source_code_link: "https://d6236704.nike-bgi.pages.dev/",
+      image: airwings,
+      source_code_link: "https://airwings.pages.dev/",
     },
     {
       name: "Gym ",

@@ -28,7 +28,7 @@ import aaagency from "./company/aaagency.jpeg"
 
 import gym from "./gym.png";
 import erp from "./erp.png";
-import nike from './nike.png'
+import nike from "./";
 
 import githubContact from "./contact/githubContact.png";
 import Insta from "./contact/Insta.png";
@@ -61,7 +61,7 @@ export {
   // threejs,
   gym,
   erp,
-  nike,
+  airwings,
   exthgen,
   poonchola,
   aaagency,

@@ -235,9 +235,9 @@ import {
           color: "orange-text-gradient",
         },
       ],
-      image: nike,
+      image: airwings,
       // source_code_link: "https://airwings.pages.dev/",
-      source_code_link: "https://d6236704.nike-bgi.pages.dev/",
+      // source_code_link: "https://airwings.pages.dev/",
     },
     {
       name: "Gym ",

@@ -19,7 +19,7 @@ import {
     erp,
     // threejs,
     next,
-   nike,
+    airwings,
     exthgen,
     poonchola,
     aaagency,
@@ -214,9 +214,9 @@ import {
   
   const projects = [
     {
-      name: "Shoe Wear ",
+      name: "Airwings ",
       description:
-        "Ecommerce Website for Shoes. ite is a basic website which build on React and Redux-toolkit.we can view the products and put them to cart and it will shows the total amount",
+        "It is just a template which i build for a company, for a model i build this. it is for a airline comapny named airwings with gives the information about their Services , packages etc.. and a email form to contact them",
       tags: [
         {
           name: "react",
@@ -231,13 +231,12 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "redux-toolkit",
+          name: "javascript",
           color: "orange-text-gradient",
         },
       ],
-      image: nike,
-      // source_code_link: "https://airwings.pages.dev/",
-      source_code_link: "https://d6236704.nike-bgi.pages.dev/",
+      image: airwings,
+      source_code_link: "https://airwings.pages.dev/",
     },
     {
       name: "Gym ",

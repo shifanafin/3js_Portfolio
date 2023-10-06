@@ -61,7 +61,7 @@ export {
   // threejs,
   gym,
   erp,
-  nike,
+  airwings,
   exthgen,
   poonchola,
   aaagency,
